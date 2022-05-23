@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pySpintax",
-    version="1.0",
+    version="2.0",
     author="1dragosh",
     author_email="contact@1dragosh.me",
     description="Simple Spintax Spinner",

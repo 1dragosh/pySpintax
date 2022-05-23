@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+pySpintax/__init__.py
+pySpintax/pySpintax.py
+pySpintax.egg-info/PKG-INFO
+pySpintax.egg-info/SOURCES.txt
+pySpintax.egg-info/dependency_links.txt
+pySpintax.egg-info/top_level.txt
