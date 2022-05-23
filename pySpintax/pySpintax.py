@@ -6,8 +6,8 @@ import random
 import re
 
 
-def spin(spintax):
-    def _sel(m, delimiter='|'):
+def spin(spintax, delimiter='|'):
+    def _sel(m):
         ch = m.group(1).split(delimiter)
         return ch[random.randint(0, len(ch) - 1)]
 
@@ -16,7 +16,7 @@ def spin(spintax):
         spintax, x = what.subn(_sel, spintax)
         if x == 0:
             break
-    return spintax.strip()
+    return spintax.strip()()
 
 
 if __name__ == "__main__":
